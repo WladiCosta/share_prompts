@@ -1,4 +1,5 @@
 import React from 'react'
+import Feed from '@components/Feed'; '@components/Feed'
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
             Promptopia é uma ferramenta de IA-Prompt de código aberto para descobrir o mundo moderno, criar e compartilhar prompts criativos
         </p>
         
-        {/* Feed */}
+        {<Feed />}
     </section>
   )
 }
